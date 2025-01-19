@@ -1,0 +1,187 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/nfpw/DH/refs/heads/main/Library.lua'))()
+local Window = Library:CreateWindow({
+    Title = "Gipkz Babapiro Hub",
+    Center = true, 
+    AutoShow = true,
+})
+
+local Tabs = {
+    test = Window:AddTab('Auto Badge'),
+}
+
+local StupidNigger = Tabs.test:AddLeftGroupbox('Teleports')
+
+StupidNigger:AddDivider()
+
+StupidNigger:AddButton('Alien', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.AlienExit.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Ammo Box', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.PlantRoom["Box of Shells"].Box.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Execution Room', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.ExecutionRoom.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddDivider()
+
+StupidNigger:AddLabel('[MAKE THIS AFTER PACK')
+StupidNigger:AddLabel('A PUNCH RAYGUN]')
+
+StupidNigger:AddButton('Giant Zombie', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.RadioactiveArea.GiantZombieRoom.GiantZombieEngine.GuiAndWall.Door.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddDivider()
+
+StupidNigger:AddButton('M14', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.MedicalRoom:GetChildren()[7].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('M16A2', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SewerCaptainRoom.M16A2Room:GetChildren()[12].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('MP5k', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.RayGunRoom:GetChildren()[4].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddDivider()
+
+StupidNigger:AddLabel('[MUST HAVE 10 KILLS')
+StupidNigger:AddLabel('WITH GUN]')
+
+StupidNigger:AddButton('Pack a Punch', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.TeleporterRoom.Teleporter.Teleporter.Part.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddDivider()
+
+StupidNigger:AddButton('Paper 1', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.RadioactiveArea.Floor1.Paper.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Paper 2', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.YellowBedRoom.Buro.Paper.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Paper 3', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.MeetingRoom.DeadGuy.Paper.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('R870', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.YellowUselessRoom:GetChildren()[5].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('RayGun', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.RadioactiveArea.ToMP5k:GetChildren()[9].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('SVD', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SVDRoom:GetChildren()[15].CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Deagle', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.JailsRoom.Jails.Left.Front.Part.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 1', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath1.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 2', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath2.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 3', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath3.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 4', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath4.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 5', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath5.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Secret Path 6', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.SecretPath6.Reward.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddButton('Zombie Morph', function()
+    cloneref(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.AREA51.Outside.Hangar.Right["Zombie Morph"].TheButton.CFrame + Vector3.new(0,1,0)
+end)
+
+StupidNigger:AddDivider()
+
+local StupidNigger2 = Tabs.test:AddRightGroupbox('Infos')
+
+StupidNigger2:AddDivider()
+StupidNigger2:AddLabel('FOR PACK A PUNCH,CLICK PACK A')
+StupidNigger2:AddLabel('PAUNCH')
+StupidNigger2:AddLabel('TELEPORT URSELF FROM TP')
+StupidNigger2:AddLabel('MACHINE TO ROOM')
+StupidNigger2:AddLabel('PACK A PUNCH YOUR GUN')
+StupidNigger2:AddLabel('BEFORE GIANT ZOMBIE MAKE')
+StupidNigger2:AddLabel('PACK A PAUNCHED RAYGUN FOR KILL HIM')
+StupidNigger2:AddDivider()
+
+local StupidNigger3 = Tabs.test:AddRightGroupbox('Speed')
+
+if hookmetamethod then
+    local char = game.Players.LocalPlayer.Character
+    local setspeed;
+    local index; index = hookmetamethod(game, "__index", function(self, key)
+        local keyclean = key:gsub("\0", "")
+        if (keyclean == "WalkSpeed" or keyclean == "walkSpeed") and self:IsA("Humanoid") and self:IsDescendantOf(char) and not checkcaller() then
+            return setspeed or args[1]
+        end
+        return index(self, key)
+    end)
+    local newindex; newindex = hookmetamethod(game, "__newindex", function(self, key, value)
+        local keyclean = string.gsub(key, "\0", "")
+        if (keyclean == "WalkSpeed" or keyclean == "walkSpeed") and self:IsA("Humanoid") and self:IsDescendantOf(char) and not checkcaller() then
+            setspeed = tonumber(value)
+            return setspeed
+        end
+        return newindex(self, key, value)
+    end)
+else
+    notify('Incompatible Exploit','Your exploit does not support this command (missing hookmetamethod)')
+end
+
+getgenv().OsurukValuesu = 20
+getgenv().OsurukValuesu2 = 50
+
+StupidNigger3:AddInput("Speed", {
+    Default = getgenv().OsurukValuesu,
+    Text = "Set the walkspeed value",
+    Placeholder = getgenv().OsurukValuesu,
+    Finished = true,
+    Callback = function(value)
+        getgenv().OsurukValuesu = value
+		print(getgenv().OsurukValuesu)
+    end,
+})
+
+StupidNigger3:AddInput("JumpPower", {
+    Default = getgenv().OsurukValuesu2,
+    Text = "Set the jumppower value",
+    Placeholder = getgenv().OsurukValuesu2,
+    Finished = true,
+    Callback = function(value)
+        getgenv().OsurukValuesu2 = value
+		print(getgenv().OsurukValuesu2)
+    end,
+})
+
+StupidNigger3:AddButton('Set WalkSpeed', function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = getgenv().OsurukValuesu
+end)
+
+StupidNigger3:AddButton('Set JumpPower', function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = getgenv().OsurukValuesu2
+end)
